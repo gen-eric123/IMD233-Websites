@@ -1,3 +1,4 @@
 body{
-  background-image: url("https://i.imgur.com/QesmW1f.jpg");
+  background: url("https://i.imgur.com/QesmW1f.jpg") no-repeat;
+  background-size:100% 500%
 }
