@@ -6,7 +6,7 @@ body{
   background-color: white;
   border: 5px solid black;
 }
-div{
+.box{
   background-color: silver;
   Border: 2px solid yellow;
   margin-left: auto;
