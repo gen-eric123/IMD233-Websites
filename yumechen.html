@@ -2,8 +2,13 @@
 <html>
  <head>
   <link rel=stylesheet type=text/css href=yumestyle.css>
-  <title>Photographs I Would Like to Do for This Assignment</title>
+  <title>Things We Would Like to Do for This Assignment</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <style>
     table, th, td
      {border: 1px solid black;}
@@ -29,12 +34,40 @@
       padding: 6px 12px;
       border: 1px solid #ccc;
       border-top: none;}
+    .flex-container
+     {display: flex;
+      flex-wrap: wrap;
+      background-color: navajowhite;
+      border: 1px solid black;}
   </style>
  </head>
  <body>
-<a href="index.html">Home Page</a> | <a href="gen-eric123.html">Eric's Post</a> | <xa href="yumechen.html">Yume's Post</a> | <a href="farrar3.html">Racquel's Post</a> | <a href="itsdemetre.html">Tre's Post</a>
  <h1>Photograph</h1>
  <hr>
+ <!--navbar-->
+ <nav class="navbar navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home Page</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="gen-eric123.html">Eric's Post</a>
+   <li class="nav-item">
+      <a class="nav-link" href="yumechen.html">Yume's Post</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="farrar3.html">Racquel's Post</a>
+    </li>
+   <li class="nave-item">
+   <a class="nav-link" href="itsdemetre.html">Tre's Post</a>
+   </li>
+  </ul>
+</nav>
+<!--Progress Bar-->
+<div class="progress border">
+<div class="progress-car bg-warning progress-bar-striped progress-bar-animated" style="width:70%"></div>
+</div>
+<br>
   <p class=thick>Different Photographs</p>
   <div class="tab">
    <button class="tablinks" onclick="openCity(event, 'Photograph1')">Photograph1</button>
@@ -42,6 +75,9 @@
   </div>
   <div id="Photograph1" class="tabcontent">
  <h2>Ruins of Stone Bridge—Bull Run</h2>
+ <!--grid-->
+  <div class="column">
+    <div class="col-lg-4" style="background-color:navajowhite;">
   <p class=thick>Photograph and Description</p>
   <img src="https://cdn4.picryl.com/photo/1861/01/01/battlefield-of-bull-run-ruins-of-the-stone-bridge-1024.jpg" alt="Ruins of Stone Bridge" style=width:80%>
   <ul>
@@ -49,10 +85,14 @@
    <li><strong>Artist:</strong> Mathew B. Brady</li>
    <li><strong>Date:</strong> 1862</li>
   </ul>
+  </div>
+  <div class="col-lg-4" style="background-color:navajowhite;">
   <p id=paral><strong>Description of The Image from <em>The Met Museum</em></strong></p>
   <blockquote cite="https://www.metmuseum.org/art/collection/search/285834">In summer 1861 Mathew B. Brady began releasing oversize photographs on paper mounts with the series title "Brady’s Incidents of the War." These albumen silver prints with letterpress titles and series numbers were relatively expensive and conceived to appeal to a small but wealthy audience. They constitute the first intentionally produced collectible series of large-format photographs in American photography.<br><a href="https://www.metmuseum.org/art/collection/search/285834">The Met Museum</a><br></blockquote>
   <p id=paral><strong>Description of The Image from <em>National Archives</em></strong></p>
   <blockquote cite="https://www.archives.gov/research/military/civil-war/photos">The War Between the States was the first large and prolonged conflict recorded by photography. During the war, dozens of photographers, both as private individuals and as employees of the Confederate and Union Governments, photographed civilians and civilian activities; military personnel, equipment, and activities; and the locations and aftermaths of battles. Because wet-plate collodion negatives required from 5 to 20 seconds exposure, there are no action photographs of the war.<div>The name Mathew B. Brady is almost a synonym for Civil War photography. Although Brady himself actually may have taken only a few photographs of the war, he employed many of the other well-known photographers before and during the war….<br><span style="color:blue">https://www.archives.gov/research/military/civil-war/photos</span><br></div></blockquote>
+ </div>
+ <div class="col-lg-4" style="background-color:navajowhite;">
 <h3>A Table for The References</h3>
  <table style=width:100%>
   <tr>
@@ -68,13 +108,21 @@
    <td><a href="https://www.archives.gov/research/military/civil-war/photos">National Archives</a></td>
   </tr>
 </table>
+</div>
+<div class="col-lg-4" style="background-color:navajowhite;">
 <h4>Analyse</h4>
   <p>I chose this picture because I think the environment after a conflict can give viewers more room to imagine how intense the conflict is. This is a picture taken by Mathew B. Brady in a battle area, Virginia, during the American Civil War. There were 23 states in the North before the war, and there were just 7 states in the South; but, four state in the North, including Virginia, joined the South after the war begins. In military terms, the two sides of the Civil War are not equal in strength. Although there are more states in the north than in the south, the army in the south has just experienced the American-Mexican War, and its strength is relatively strong; in contrast, there is almost no combat readiness in the north. After the war, although the north won, but paid a higher price—a large number of casualties. (I am not good on American history, if I said anything wrong, please correcting my mistakes). At such a time of chaos, Brady took only his photographic equipment to the battlefield with the soldiers. According to <em>the History of Photography from 1839 to the Present</em> written by Beaumont Newhall, <q>‘Brady's Photographic Corps’… has been a feature as distinct and omnipresent… have threaded the weary stadia of every march; have hung on the skirts of every battle scene…</q> The picture shows the tragedy of the fighting: many trees collapsed and stone bridge destroyed by fighting. A line could be seen on the middle of the river, dividing the river in half, and the part of the bridge that hung above the river was now completely sunk into the water. The river looks not very deep, because the fragments of fallen trees and parts of stone bridge will sink completely into the water, rather than seeing some of the debris exposed to the water as it is now. Also, this photo should have been taken after the batter, because I did not see the dead bodies in it (people would clean up the battlefield to avoid diseases such as plague after the battle).</p>
 <hr>
 </div>
+</div>
+</div>
 
 <div id="Photograph2" class="tabcontent">
+<!--flexboxes-->
+<div class="container mt-3">
   <h2>The Last Joke—Bellagio or A Good Joke</h2>
+    <div class="flex-container">
+    <div class="p-2 border">
   <p class=thick>Photograph and Description</p> 
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Alfred_Stieglitz_-_The_Last_Joke_Bellagio%2C_1887.jpg" alt="The Last Joke" style=width:80%>
 <ol>
@@ -82,9 +130,13 @@
  <li><strong>Artist:</strong>Alfred Stieglitz</li>
  <li><strong>Date:</strong>1887</li>
 </ol>
+</div>
+<div class="p-2 border">
 <p id=paral><strong>Description of The Image from <em>Stieglitz: A Beginning Light</em></strong></p>
 <blockquote cite="https://books.google.com/books?id=VUSMwNig2RwC&pg=PA73&lpg=PA73&dq=The+Good+Joke,+Bellagio+by+Alfred+Stieglitz&source=bl&ots=SnSNHwe_oS&sig=ACfU3U2oQCexjNWLwQlhJbI6VCFJ-rWvvQ&hl=zh-CN&sa=X&ved=2ahUKEwiUoOnm_OfhAhXJvp4KHcpPCTQ4ChDoATAAegQICBAB#v=onepage&q=The%20Good%20Joke%2C%20Bellagio%20by%20Alfred%20Stieglitz&f=false">The most well-known of Stieglitz's images from Bellagio is The Last Joke, Bellagio (1887), also known as A Good Joke. The photograph was to win first place in the Amateur Photographer's Photographic Holiday Work Competition, appearing in the 25 November 1887 issue. It was considered the only spontaneous work in the competition, judged by British photographer Dr. Peter Henry Emerson. The photograph is of children laughing and talking as they gather about a woman who appears to be collecting water. It is closely cropped, focusing on the children, with architectural arches in the background providing a stage set for the image.
 <br><a href="https://books.google.com/books?id=VUSMwNig2RwC&pg=PA73&lpg=PA73&dq=The+Good+Joke,+Bellagio+by+Alfred+Stieglitz&source=bl&ots=SnSNHwe_oS&sig=ACfU3U2oQCexjNWLwQlhJbI6VCFJ-rWvvQ&hl=zh-CN&sa=X&ved=2ahUKEwiUoOnm_OfhAhXJvp4KHcpPCTQ4ChDoATAAegQICBAB#v=onepage&q=The%20Good%20Joke%2C%20Bellagio%20by%20Alfred%20Stieglitz&f=false">Stieglitz: A Beginning Light</a><br></blockquote>
+</div>
+<div class="p-2 border">
 <h3>A Table for The References</h3>
 <table style=width:100%>
 <tr>
@@ -96,24 +148,27 @@
  <td><a href="https://books.google.com/books?id=VUSMwNig2RwC&pg=PA73&lpg=PA73&dq=The+Good+Joke,+Bellagio+by+Alfred+Stieglitz&source=bl&ots=SnSNHwe_oS&sig=ACfU3U2oQCexjNWLwQlhJbI6VCFJ-rWvvQ&hl=zh-CN&sa=X&ved=2ahUKEwiUoOnm_OfhAhXJvp4KHcpPCTQ4ChDoATAAegQICBAB#v=onepage&q=The%20Good%20Joke%2C%20Bellagio%20by%20Alfred%20Stieglitz&f=false">Stieglitz: A Beginning Light</a></td>
 </tr>
 </table>
+</div>
+<div class="p-2 border">
 <h4>Analyse</h4>
 <p>I chose this photograph is because I was very interested in what the textbook said that this was the first award-winning entry of Alfred Stieglitz, and I would like to see what a famous photographer’s first piece of work was like to get recognition from other photographers and what was the special features of this work. According to <em>the History of Photography from 1839 to the Present</em> written by Beaumont Newhall, <q>the picture was of a group of Italian children around the village well, each one laughing heartily. A Good Joke lacked intensity, perhaps, but it had been taken directly and honestly, without straining for effect; it was not forced into an obvious compositional pattern. [Peter Henry] Emerson wrote Stieglitz that he found it the only truly spontaneous photograph that had been submitted.</q> In this photograph, I could see that every child was laughing happily except the boy in hat standing on the leftmost side of the image. This boy was looking intently at the woman in to fetch water. I think the boy may have just joined this group because he was on the last side of the group. Also, what caught my attention most was the boy in the middle of the image who was also wearing a hat. He smiled very happily, and his smile was very contagious, which made me raise my mouth unconsciously. He looked so pure and carefree, and his smile could remind most people of their childhood memories that children do not have so much stress and do not have to think and worry as much as adults do. Some of children in the image were not wearing shoes, which is reminiscent of the fact that their families and living environment may be poorer, but they are not defeated by poverty. They still have a positive and optimistic attitude towards what is happening around them. </p>
 <hr>
 </div>
-
+</div>
+</div>
 <script>
-function openCity(evt, cityName)
+function openCity(evt, cityName) 
 {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) 
   {tabcontent[i].style.display = "none";}
   tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++)
+  for (i = 0; i < tablinks.length; i++) 
   {tablinks[i].className = tablinks[i].className.replace(" active", "");}
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 </script>  
 </body>
-</html> 
+</html>
