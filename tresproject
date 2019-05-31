@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="tresproject.css">
+        <title> DEMETRE </title>
+    </head>
+    <body>
+        <style> 
+            body { 
+                 background-image: url("https://scontent-ort2-2.cdninstagram.com/vp/e725b43d9ed7647734a4d2614ee0eaa7/5CF29900/t50.2886-16/51878939_2276602932622886_7984897031044181436_n.mp4?_nc_ht=scontent-ort2-2.cdninstagram.com");
+                 background-repeat: no-repeat;
+                 background-size:cover;
+                 color: #111111;
+            }
+       
+        </style>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1> AESTHETICS </h1>
+                        <h4> TROPICAL </h4>
+                        <h4> RAVE </h4>
+                        <h4> GOTH </h4>
+                </div>  
+                <div class="col-sm-6">
+                    <h1> SHOP </h1>
+                        <h4> COMING SOON! </h4>
+                </div>
+            </div>
+        </div>
+                
+        <div class="container">
+                <div class="col-sm-6">
+                    <h1> CONTACT </h1>
+                        <h4> <a href="https://www.instagram.com/itsdemetre/"> INSTAGRAM </a></h4>
+                        <h4> <a href="https://open.spotify.com/artist/7scRVHqed6IMYqaj3GgvmU?si=L0GTQxkERtCayzXQ_DkIKQ"> SPOTIFY </a></h4>
+                        <h4> <a href="https://music.apple.com/us/artist/demetre/1281510118"> APPLE MUSIC </a></h4>
+                        <h4> <a href="https://soundcloud.com/itsdemetre"> SOUNDCLOUD </a></h4>
+                        <h4> <a href="https://www.youtube.com/channel/UC1UZIZgEtGWBP6QkOXGyohw"> YOUTUBE </a></h4>
+                        <h4> <a href="https://play.google.com/store/music/artist?id=Aomdapm6m7t757rvfk3ssoxrkpy"> GOOGLE PLAY MUSIC </a></h4>
+                        <h4> E-MAIL: ITSDEMETRE@GMAIL.COM </h4>
+                </div>
+                <div class="col-sm-6">
+                    <h1> TRENEWS </h1>
+                        <h4> <a href="https://soundcloud.com/yung-iggy"> IGGY </a></h4>
+                        <h4> <a href="https://soundcloud.com/neverosity"> NEVER </a></h4>
+                        <h4> <a href="https://soundcloud.com/itsyaboibruce"> UFODAROCKSTAR </a></h4>
+                        <h4> &&& MORE! </h4>
+                </div>
+            </div>
+
+    </body>
+</html>
