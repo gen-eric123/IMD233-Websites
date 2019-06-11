@@ -25,6 +25,39 @@ Layout: default
   
   <a href="index.html">Home Page</a> | <a href="gen-eric123.html">Eric's Post</a> | <a href="yumechen.html">Yume's Post</a> | <a href="farrar3.html">Racquel's Post</a> | <xa href="itsdemetre.html">Tre's Post</a>
 
+     <hr>
+  <p id="demo"></p>
+  <p id="demo1"></p>
+  <p id="demo2"></p>
+  
+  <script>
+      var x = 7;
+      var y = 3;
+      var sum = 0;
+      for(i=0; i < 10; i = i + 1){
+        sum = sum + (x * y);
+      }
+      if(sum >100){
+        sum = "OVERLOAD SUM!"
+      }
+      document.getElementById("demo").innerHTML = sum;
+
+        var numbers = ["seven","three"];
+        document.getElementById("demo1").innerHTML = numbers;
+
+    function myFunction(x, y){
+      return x * y; 
+    }
+    
+    document.getElementById("demo2").innerHTML = myFunction(x, y);
+
+  </script>
+    
+  <button onclick="this.innerHTML=Date()"> WHAT TIME IS IT?!! </button>
+
+  <hr>
+    
+    
   <h1> ROCKSTAR </h1>
   <hr>
   <h4> a DARK edit in PINK color scheme featuring DEMETRE & HIS SOUL! </h4>
