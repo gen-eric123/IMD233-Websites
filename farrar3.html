@@ -11,7 +11,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
   <style> 
-    
     table, th, td {
       border: 1px solid black;
 }
@@ -43,11 +42,11 @@ th {
       <h1> <mark>Abraham Lincoln</mark> </h1>
  <!--this nice looking piece of work is made by RACQUEL FARRAR-->
   <hr>
-    <img src="https://cdn.britannica.com/s:300x300/34/78134-004-8587374E.jpg" class="rounded" alt=”AbrahamLincoln”>
-    <!-- adds "rounding" to the picture for vintage effect (TRE)-->
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://www.battlefields.org/sites/default/files/styles/scale_crop_380x370/public/thumbnails/image/Abraham%20Lincoln.jpg?itok=I7IY_NZn" alt="Smiley" width="400" height="400">
     </div>
     <div class="box">
       <h1> Basic Biography </h1>
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/A%26TLincoln.jpg" alt="Smiley" width="400" height="400">
     <p style=font-size:+2>Abraham Lincoln was the famous 16th president of the United States from March 4th, 1861 to April 14th, 1865.
       <br>He was born in Kentucky on February 12th, 1809 to parents Thomas and Nancy Hanks Lincoln.<br>
       <br> He is on the penny and on the $5 bill and all in all - he's a pretty cool guy.<br> </p>
@@ -67,13 +66,9 @@ th {
   <p> Okay that last one was a bit morbid but dang be careful if you have a dream you gon die cause that might just happen
     <br> (We should call him <em> "All Seeing Baby Abey"</em>)<br>
   </p>
-  <img src="https://www.potus.com/wp-content/uploads/16_abraham_lincoln_2_gallery.jpg" class="rounded" alt=”AbrahamLincoln”>
-        <!-- adds "rounding" effect for vintage vibe (TRE) -->
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://upload.wikimedia.org/wikipedia/commons/4/47/Abraham_Lincoln_by_Nicholas_Shepherd%2C_1846-crop.jpg" alt="Smiley" width="400" height="400">
         <p> I mean......... look at this hottie right here </p> <!--I swear I did this as a joke--> </div>
         <div class = box>
-<button data-toggle="collapse" data-target="#demo"> Presidents </button> <!-- collapsible content (TRE) -->
-<div id="demo" class="collapse">
-
 <div class="container">
   <h3 style="text-align:center"><mark> Presidents </mark></h3>
 <table class="table table-light table-hover">
@@ -99,12 +94,10 @@ th {
     <td> Democratic</td>
   </tr>
   <tr> 
-    <p class = "text-danger"> <!-- colors Abe's info RED since the page is about him :) (TRE)--> 
     <td> Abraham Lincoln </td>
-    <td> 16th President - (Sempai) Kept the union together while also ending slavery (nice) </td>
-    <td>  1861 - 1865 </td>
+    <td> 16th President - (Sempai) Kept the union together while also ending slavery (nice)</td>
+    <td> 1861 - 1865 </td>
     <td> Republican </td>
-    </p> <!-- ends RED effect (TRE) -->
   </tr>
   <tr> 
     <td> Andrew Johnson </td>
@@ -121,6 +114,19 @@ th {
   </tbody>
 </table>
 </div>
-</div> <!-- closes collapsible button (TRE) -->
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/330px-Abraham_Lincoln_O-77_matte_collodion_print.jpg" alt="Smiley" width="400" height="400">
+
+<script>
+function bigImg(x) {
+  x.style.height = "500px";
+  x.style.width = "500px";
+}
+
+function normalImg(x) {
+  x.style.height = "300px";
+  x.style.width = "300px";
+}
+</script>
+</script>
 </body>
 </html>
