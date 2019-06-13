@@ -20,8 +20,16 @@ th {
   </style>
 </head>
   <body>
-<!--Racquel Farrar-->
 
+
+<button onclick="myFunction()">Click Me</button>
+
+<script>
+function myFunction() {
+  alert("Whatever you are, be a good one - abe babe");
+}
+</script>
+<!--Racquel Farrar-->
 <nav class="navbar navbar-light" style="background-color: #f9dab7;">
  <a class="navbar-brand" href="https://gen-eric123.github.io/">Team 6 Pages</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
@@ -126,7 +134,45 @@ function normalImg(x) {
   x.style.height = "300px";
   x.style.width = "300px";
 }
-</script>
+  </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+  </style>
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "congrats you stayed!!!";
+  }
+}, 1000);
 </script>
 </body>
 </html>
